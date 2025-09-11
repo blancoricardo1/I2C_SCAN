@@ -6,35 +6,25 @@ Info : SWCLK/TCK = 0 SWDIO/TMS = 0 TDI = 0 TDO = 0 nTRST = 0 nRESET = 0
 Info : CMSIS-DAP: Interface ready
 Info : clock speed 2000 kHz
 Info : SWD DPIDR 0x2ba01477
-Info : [max32xxx.cpu] Cortex-M4 r0p1 processor detected
 Info : SWD DPIDR 0x2ba01477
-Error: Failed to read memory at 0xe000ef44
-Info : SWD DPIDR 0x2ba01477
-Error: Failed to read memory at 0xe0002004
-Info : SWD DPIDR 0x2ba01477
-Error: Failed to write memory at 0xe000102c
-Info : [max32xxx.cpu] target has 0 breakpoints, 4 watchpoints
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Error: Failed to read memory and, additionally, failed to find out where
+Warn : target max32xxx.cpu examination failed
 Info : starting gdb server for max32xxx.cpu on pipe
-Polling target max32xxx.cpu failed, trying to reexamine
+Info : SWD DPIDR 0x2ba01477
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Info : SWD DPIDR 0x2ba01477
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Info : SWD DPIDR 0x2ba01477
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Info : SWD DPIDR 0x2ba01477
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Info : SWD DPIDR 0x2ba01477
+Info : [max32xxx.cpu] AP write error, reset will not halt
 Info : SWD DPIDR 0x2ba01477
 Info : [max32xxx.cpu] Cortex-M4 r0p1 processor detected
 Info : SWD DPIDR 0x2ba01477
-Error: Failed to read memory at 0xe000ef44
+Error: Failed to read memory at 0xe000ef48
 Info : SWD DPIDR 0x2ba01477
-Error: Failed to read memory at 0xe0002004
-Info : SWD DPIDR 0x2ba01477
-Error: Failed to write memory at 0xe000102c
-Info : [max32xxx.cpu] target has 0 breakpoints, 4 watchpoints
-[max32xxx.cpu] halted due to debug-request, current mode: Thread 
-xPSR: 0x01000000 pc: 0x000001b4 msp: 0x2000c000
-Info : Listening on port 6666 for tcl connections
-Info : Listening on port 4444 for telnet connections
-Info : accepting 'gdb' connection from pipe
-Warn : Prefer GDB command "target extended-remote :pipe" instead of "target remote :pipe"
-Warn : No RTOS could be auto-detected!
-[max32xxx.cpu] halted due to debug-request, current mode: Thread 
-xPSR: 0x01000000 pc: 0x000001b4 msp: 0x2000c000
-Info : Padding image section 0 at 0x1000b0ec with 4 bytes
-[max32xxx.cpu] halted due to debug-request, current mode: Thread 
-xPSR: 0x01000000 pc: 0x000001b4 msp: 0x2000c000
-Info : dropped 'gdb' connection
+Error: Failed to write memory at 0xe000ee00
+TARGET: max32xxx.cpu - Not examined
