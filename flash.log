@@ -1,3 +1,4 @@
+Warn : could not read product string for device 0x04f2:0xb7fe: Invalid parameter
 Info : CMSIS-DAP: SWD supported
 Info : CMSIS-DAP: FW Version = 1.0
 Info : CMSIS-DAP: Interface Initialised (SWD)
@@ -6,8 +7,24 @@ Info : CMSIS-DAP: Interface ready
 Info : clock speed 2000 kHz
 Info : SWD DPIDR 0x2ba01477
 Info : [max32xxx.cpu] Cortex-M4 r0p1 processor detected
-Info : [max32xxx.cpu] target has 6 breakpoints, 4 watchpoints
+Info : SWD DPIDR 0x2ba01477
+Error: Failed to read memory at 0xe000ef44
+Info : SWD DPIDR 0x2ba01477
+Error: Failed to read memory at 0xe0002004
+Info : SWD DPIDR 0x2ba01477
+Error: Failed to write memory at 0xe000102c
+Info : [max32xxx.cpu] target has 0 breakpoints, 4 watchpoints
 Info : starting gdb server for max32xxx.cpu on pipe
+Polling target max32xxx.cpu failed, trying to reexamine
+Info : SWD DPIDR 0x2ba01477
+Info : [max32xxx.cpu] Cortex-M4 r0p1 processor detected
+Info : SWD DPIDR 0x2ba01477
+Error: Failed to read memory at 0xe000ef44
+Info : SWD DPIDR 0x2ba01477
+Error: Failed to read memory at 0xe0002004
+Info : SWD DPIDR 0x2ba01477
+Error: Failed to write memory at 0xe000102c
+Info : [max32xxx.cpu] target has 0 breakpoints, 4 watchpoints
 [max32xxx.cpu] halted due to debug-request, current mode: Thread 
 xPSR: 0x01000000 pc: 0x000001b4 msp: 0x2000c000
 Info : Listening on port 6666 for tcl connections
@@ -17,7 +34,7 @@ Warn : Prefer GDB command "target extended-remote :pipe" instead of "target remo
 Warn : No RTOS could be auto-detected!
 [max32xxx.cpu] halted due to debug-request, current mode: Thread 
 xPSR: 0x01000000 pc: 0x000001b4 msp: 0x2000c000
-Info : Padding image section 0 at 0x1000b148 with 8 bytes
+Info : Padding image section 0 at 0x1000b0ec with 4 bytes
 [max32xxx.cpu] halted due to debug-request, current mode: Thread 
 xPSR: 0x01000000 pc: 0x000001b4 msp: 0x2000c000
 Info : dropped 'gdb' connection
